@@ -42,7 +42,7 @@ public class Tests extends API {
 		Headers = null;
 	}
 
-	@Test(groups = "Positive", enabled=false)
+	@Test(groups = "Positive", enabled=true)
 	public void TC_01_getItems() {
 		PathURL = "users/"+userID+"/items?v=3";
 		formURL(BaseURL, PathURL);

@@ -1,6 +1,8 @@
 package pageObjects;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -32,8 +34,13 @@ public class Home extends Methods{
 	By txtCSLentry = By.xpath("//div[@class='csl-entry']");
 	
 	By btnCreate = By.xpath("//button[contains(text(),'Create')]");
+	By btnCopyURL = By.xpath("//button[text()='Copy URL']");
 	By btnView = By.xpath("//a[contains(text(),'View')]");
 	By btnClose = By.xpath("//div[@class=\"actions\"]/button[contains(text(),'Close')]");
+	By btnEdit = By.xpath("//div[@class=\"actions\"]/button[contains(text(),'Edit')]");
+	
+	By inpWebSiteTitle = By.xpath("//input[@id='websiteTitle']");
+	By btnDone = By.xpath("//button[text()='Done']");
 	
 	
 	//Functions
@@ -41,6 +48,32 @@ public class Home extends Methods{
 	public void ClickElement(By value) throws Exception {
 		e = driver.findElement(value);
 		Click(e);
+	}
+	
+	public Set<String> getAllLinks() {
+		Set<String> uniq = new HashSet<String>();
+		try {
+			List<WebElement> els = driver.findElements(By.xpath("//a[@href]"));
+			for(WebElement e:els) {
+				String hrefs = e.getAttribute("href");
+				uniq.add(hrefs);
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return uniq;
+	}
+	
+	public void clickCopyURL() throws Exception {
+		ClickElement(btnCopyURL);
+	}
+	
+	public void editItem(String keysToSend) throws Exception {
+		wait.until(ExpectedConditions.presenceOfElementLocated(inpWebSiteTitle));
+		e = driver.findElement(inpWebSiteTitle);
+		Set(e, keysToSend);
+		ClickElement(btnDone);
 	}
 	
 	public void setSearchBox(String keysToSend) throws Exception {

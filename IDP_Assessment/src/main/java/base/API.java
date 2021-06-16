@@ -66,6 +66,16 @@ public class API {
 			e.printStackTrace();
 		}
 	}
+	
+	public void setURL(String completeURL) {
+		try {
+			new URL(completeURL);
+			iURL = completeURL;
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	private void setHeaders(HashMap<String, String> map) {
 		for (Map.Entry<String, String> m : map.entrySet()) {
