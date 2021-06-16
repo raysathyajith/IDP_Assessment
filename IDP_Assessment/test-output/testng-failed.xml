@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UI_Tests]">
+  <test thread-count="5" name="PositiveScenario(failed)">
+    <classes>
+      <class name="testScripts.ui.ScriptHome">
+        <methods>
+          <include name="brokenlinkValidation"/>
+          <include name="setupClass"/>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScripts.ui.ScriptHome -->
+    </classes>
+  </test> <!-- PositiveScenario(failed) -->
+</suite> <!-- Failed suite [UI_Tests] -->

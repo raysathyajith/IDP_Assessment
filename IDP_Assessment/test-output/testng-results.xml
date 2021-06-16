@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UI_Tests" duration-ms="143902" started-at="2021-06-16T17:43:05 IST" finished-at="2021-06-16T17:45:28 IST">
+    <groups>
+    </groups>
+    <test name="PositiveScenario" duration-ms="143902" started-at="2021-06-16T17:43:05 IST" finished-at="2021-06-16T17:45:28 IST">
+      <class name="testScripts.ui.ScriptHome">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupClass" is-config="true" duration-ms="3675" started-at="2021-06-16T17:43:05 IST" finished-at="2021-06-16T17:43:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="11242" started-at="2021-06-16T17:43:08 IST" finished-at="2021-06-16T17:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="TC_01_PositiveScenario()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="TC_01_PositiveScenario" duration-ms="4959" started-at="2021-06-16T17:43:20 IST" finished-at="2021-06-16T17:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_PositiveScenario -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="1380" started-at="2021-06-16T17:43:25 IST" finished-at="2021-06-16T17:43:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="5152" started-at="2021-06-16T17:43:26 IST" finished-at="2021-06-16T17:43:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="TC_02_VerifyTitle()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="TC_02_VerifyTitle" duration-ms="32" started-at="2021-06-16T17:43:31 IST" finished-at="2021-06-16T17:43:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="904" started-at="2021-06-16T17:43:31 IST" finished-at="2021-06-16T17:43:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="4755" started-at="2021-06-16T17:43:32 IST" finished-at="2021-06-16T17:43:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="TC_03_DeleteALL()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="TC_03_DeleteALL" duration-ms="5488" started-at="2021-06-16T17:43:37 IST" finished-at="2021-06-16T17:43:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_DeleteALL -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="1508" started-at="2021-06-16T17:43:42 IST" finished-at="2021-06-16T17:43:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="12353" started-at="2021-06-16T17:43:44 IST" finished-at="2021-06-16T17:43:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="TC_04_VerifyVersion()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="TC_04_VerifyVersion" duration-ms="23533" started-at="2021-06-16T17:43:56 IST" finished-at="2021-06-16T17:44:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_VerifyVersion -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="1048" started-at="2021-06-16T17:44:20 IST" finished-at="2021-06-16T17:44:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="7785" started-at="2021-06-16T17:44:21 IST" finished-at="2021-06-16T17:44:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="TC_05_EditItem()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="TC_05_EditItem" duration-ms="24787" started-at="2021-06-16T17:44:29 IST" finished-at="2021-06-16T17:44:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_EditItem -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="1000" started-at="2021-06-16T17:44:53 IST" finished-at="2021-06-16T17:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="5601" started-at="2021-06-16T17:44:54 IST" finished-at="2021-06-16T17:45:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="TC_06_VerifyVersionwithLink()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="TC_06_VerifyVersionwithLink" duration-ms="5079" started-at="2021-06-16T17:45:00 IST" finished-at="2021-06-16T17:45:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_VerifyVersionwithLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="1391" started-at="2021-06-16T17:45:05 IST" finished-at="2021-06-16T17:45:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="setupTest" is-config="true" duration-ms="6492" started-at="2021-06-16T17:45:06 IST" finished-at="2021-06-16T17:45:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="brokenlinkValidation()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="brokenlinkValidation" duration-ms="14453" started-at="2021-06-16T17:45:13 IST" finished-at="2021-06-16T17:45:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenlinkValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.ui.ScriptHome@4e7dc304]" name="teardown" is-config="true" duration-ms="1015" started-at="2021-06-16T17:45:27 IST" finished-at="2021-06-16T17:45:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScripts.ui.ScriptHome -->
+    </test> <!-- PositiveScenario -->
+  </suite> <!-- UI_Tests -->
+</testng-results>
